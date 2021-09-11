@@ -6,6 +6,7 @@
   padding: 0;
   margin: 0;
   border: 0;
+  color: white;
 }
 
 .App-logo {
@@ -52,4 +53,5 @@
   padding: 0;
   margin: 0;
   border: 0;
+  flex-direction: column;
 }

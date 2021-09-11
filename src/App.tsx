@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Title from './components/Title'
+import InterestList from './components/InterestList';
 
 function App() {
   let message : string = `My portfolio. 
@@ -16,7 +17,8 @@ function App() {
 
       <div className="mainContainer">
         <Title
-          message="2nd." />
+          message="I'm interested in" />
+        <InterestList />
       </div>
 
       <div className="mainContainer">

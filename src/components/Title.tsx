@@ -5,7 +5,7 @@ type AppProps = {
     message: string
 }
 
-export default function App ({ message }: AppProps) {
+export default function Title ({ message }: AppProps) {
   return (
     <div 
         className={styles.container}
