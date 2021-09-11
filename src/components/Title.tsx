@@ -1,4 +1,5 @@
 import * as React from 'react';
+import styles from '../stylesheets/Title.module.css'
 
 type AppProps = {
     message: string
@@ -6,8 +7,10 @@ type AppProps = {
 
 export default function App ({ message }: AppProps) {
   return (
-    <div>
-        <h1>
+    <div 
+        className={styles.container}
+        style={{ color: 'white' }}>
+        <h1 className={styles.text}>
             { message }
         </h1>
       

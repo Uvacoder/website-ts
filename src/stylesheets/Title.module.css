@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    width: 80%;
+    border: 3px solid red;
+    padding: 3%;
+    justify-content: left;
+}
+
+.text {
+    align-self: center;
+    font-size: 5.5em;
+    font-weight: 800;
+
+}
