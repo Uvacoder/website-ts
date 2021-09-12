@@ -17,7 +17,7 @@ function App() {
 
       <div className="mainContainer">
         <Title
-          message="I'm interested in" />
+          message="I'm interested in..." />
         <InterestList />
       </div>
 

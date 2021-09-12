@@ -5,8 +5,8 @@ type IconProps = {
 
 export default function Icon (props: IconProps) {
   return (
-    <div>
-      O
+    <div style={{display: 'flex', alignSelf: 'center'}}>
+      <text>o</text>
     </div>
   );
 }
