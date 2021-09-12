@@ -48,10 +48,18 @@
   background-color:rgba(0,0,0,255)  ;
   display: flex;
   justify-content: center;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   padding: 0;
   margin: 0;
   border: 0;
   flex-direction: column;
+}
+
+.grey {
+  background-color: #19191a;
+}
+
+.extendable {
+  height: fit-content;
 }

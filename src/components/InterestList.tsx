@@ -18,7 +18,8 @@ export default function InterestList (props: InterestProps) {
         {
             "title": "Machine Learning", 
             "text": "Learning more about this as well, primarily in R. I've worked on supervized and unsupervized learning as well as Neural Networks (mainly Convolutional)."
-        }
+        },
+        
     ] 
 
   return (

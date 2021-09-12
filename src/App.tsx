@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Title from './components/Title'
 import InterestList from './components/InterestList';
+import WeekendProjectList from './components/WeekendProjectList';
 
 function App() {
   let message : string = `My portfolio. 
@@ -21,14 +22,15 @@ function App() {
         <InterestList />
       </div>
 
-      <div className="mainContainer">
+      <div className="mainContainer grey">
         <Title
           message="3rd." />
       </div>
 
-      <div className="mainContainer">
+      <div className="mainContainer extendable">
         <Title
-          message="4th." />
+          message='"Weekend" Projects.' />
+          <WeekendProjectList />
       </div>
       
       

@@ -1,10 +1,8 @@
 .container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
     flex-direction: row;
-    width: 90%;
-    min-width: 800px;
+    width: 80%;
     align-self: center;
-    padding-bottom: 4.5%;
+    justify-content: space-evenly;
 }

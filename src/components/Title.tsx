@@ -9,7 +9,7 @@ export default function Title ({ message }: AppProps) {
   return (
     <div 
         className={styles.container}
-        style={{ color: 'white' }}>
+        style={{ color: 'white', margin:0 , padding:0  }}>
         <h1 className={styles.text}>
             { message }
         </h1>
