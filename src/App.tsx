@@ -29,7 +29,7 @@ function App() {
 
       <div className="mainContainer extendable">
         <Title
-          message='"Weekend" Projects.' />
+          message='"Weekend" Projects' />
           <WeekendProjectList />
       </div>
       

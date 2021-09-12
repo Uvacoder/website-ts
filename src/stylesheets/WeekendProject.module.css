@@ -1,6 +1,20 @@
 .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 30%;
     background-color: #19191a;
     margin-bottom: 2.5%;
     border-radius: 15px;
+    transition: transform .35s; 
+}
+
+.container:hover {
+    transform: scale(1.07);
+}
+
+p {
+    align-self: center;
+    width: 90%;
+    color: #858792;
 }
