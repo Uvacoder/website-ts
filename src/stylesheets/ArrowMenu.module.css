@@ -1,0 +1,20 @@
+.horizontalScroll {
+    display: flex;
+    overflow: visible;
+  white-space: nowrap;
+
+
+}
+
+.container {
+    background-color:rgba(0,0,0,255)  ;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    width: 100vw;
+    text-decoration: none;
+}
+
+span {
+    font-size: 3rem;
+}
