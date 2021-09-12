@@ -11,6 +11,8 @@ import logo1 from './assets/1.jpg'
 import logo2 from './assets/2.jpg'
 import logo3 from './assets/3.jpg'
 import { Chapter } from './components/Chapter';
+import { JobList } from './components/JobList';
+import ArticleList from './components/ArticleList';
 
 
 function Item(props) {
@@ -87,9 +89,16 @@ function App() {
         <InterestList />
       </div>
 
+      <div className="mainContainer ">
+      <Title
+            message="Work Experience" />
+        <div className="mainContainer row">
+          <JobList/>
+        </div>
+      </div>
+
       <div className="mainContainer grey">
-        {/* <Title
-          message="3rd." /> */}
+  
         <Carousel
           next={(next, active) => console.log()}
           prev={(prev, active) => console.log(`we left ${active}, and are now at ${prev}`)}
@@ -129,7 +138,8 @@ function App() {
 
       <div className="mainContainer">
         <Title
-          message='My journey' />
+          message='My articles' />
+        <ArticleList />
          
       </div>
 

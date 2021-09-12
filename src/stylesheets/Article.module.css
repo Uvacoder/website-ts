@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    /* border: solid 3px salmon; */
+    background-size:cover;
+    background-position:center;
+    flex-wrap: wrap;
+    background-repeat:no-repeat;
+    margin: 25px;
+    text-decoration: none;
+    color: white
+
+
+}
+
+img {
+    object-fit: cover;
+    width: 500px;
+    height: 250px;
+}

@@ -96,3 +96,9 @@ img {
   height: 400px;
 
 }
+.row {
+  flex-direction: row;
+  width: 80%;
+  align-self: center;
+
+}

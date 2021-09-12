@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.smol {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: #19191a;
+    width: 60%;
+    padding: 25px;
+    box-shadow: -4px -3px 10px 3px #2c2f36de;
+    border-radius: 15px;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+    margin-bottom: 10%;
+    cursor: pointer;
+    user-select: none;
+    
+}
