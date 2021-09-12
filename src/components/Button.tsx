@@ -3,12 +3,13 @@ import { Link, BrowserRouter as Router } from "react-router-dom";
 import styles from '../stylesheets/Button.module.css'
 type ButtonProps = {
     text: string,
-    link: string
+    link: string,
+    color?: string
 }
 
-export function Button ({ text, link }: ButtonProps) {
+export function Button ({ text, link, color }: ButtonProps) {
   return (
-    <div className={styles.button}>
+    <div className={styles.button} style={{background: color}}>
       <Router>
         <Link style={{textDecoration:'none', 
                     fontSize: '0.7rem', color: 'rgba(255,255,255)'}} 

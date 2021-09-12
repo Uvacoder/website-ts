@@ -24,11 +24,14 @@ export default function WeekendProject ({ title, description, heroku, npm, link,
             <Button 
                 text="Repository"
                 link={link}
+                color='black'
                 />
             {heroku ? <Button text="Heroku"
-                              link={linkHeroku} /> : ''}
+                              link={linkHeroku}
+                              color="black" /> : ''}
             {npm ? <Button text="NPM Package"
-                          link={linkNpm} /> : ''}
+                          link={linkNpm}
+                          color="black"  /> : ''}
         </div>
       
     </div>

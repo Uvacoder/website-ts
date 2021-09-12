@@ -61,7 +61,7 @@
 }
 
 .extendable {
-  height: fit-content;
+  height: auto;
 }
 
 .scroll {
@@ -93,5 +93,6 @@ source-css-scss
 }
 img {
   width: 600px;
+  height: 400px;
 
 }
