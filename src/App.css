@@ -102,3 +102,8 @@ img {
   align-self: center;
 
 }
+
+.footer {
+  height: 35vh;
+  margin: 0;
+}

@@ -13,6 +13,7 @@ import logo3 from './assets/3.jpg'
 import { Chapter } from './components/Chapter';
 import { JobList } from './components/JobList';
 import ArticleList from './components/ArticleList';
+import { Footer } from './components/Footer';
 
 
 function Item(props) {
@@ -140,6 +141,11 @@ function App() {
         <Title
           message='My articles' />
         <ArticleList />
+         
+      </div>
+
+      <div className="mainContainer footer grey">
+              <Footer />
          
       </div>
 
