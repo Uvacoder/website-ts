@@ -4,8 +4,18 @@
     justify-content: center;
     background: linear-gradient(to right, #65B2FF 0%, #1773CE 100%);
     text-decoration: none;
+    align-self: center;
     
     padding: 0 20px;
     border-radius: 5px;
     height: 50px;
+}
+
+@media (max-width: 700px){ 
+    .button {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: fit-content;
+    }
 }

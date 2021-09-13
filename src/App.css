@@ -54,7 +54,9 @@
   margin: 0;
   border: 0;
   flex-direction: column;
+  /* min-width: 800px; */
 }
+
 
 .grey {
   background-color: #19191a;
@@ -106,4 +108,25 @@ img {
 .footer {
   height: 35vh;
   margin: 0;
+}
+
+
+
+@media (max-width: 890px){ 
+  .App {
+      width: 100vw;
+      overflow-y:hidden;
+      min-width: none;
+  }
+
+  .mainContainer {
+    height: fit-content;
+    padding-top: 10%;
+  }
+
+  .full {
+    height: 100vh;
+  }
+
+
 }

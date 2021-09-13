@@ -1,19 +1,44 @@
 .container {
     display: flex;
-    /* border: solid 3px salmon; */
+    justify-content: center;
     background-size:cover;
     background-position:center;
     flex-wrap: wrap;
+    width: 80%;
     background-repeat:no-repeat;
     margin: 25px;
     text-decoration: none;
-    color: white
-
-
+    color: white;
+    align-self: center;
 }
 
 img {
     object-fit: cover;
-    width: 500px;
+    width: 35vw;
     height: 250px;
 }
+
+@media only screen and (max-width: 425px){
+	.container {
+        flex-direction: column;
+        justify-content: center ;
+        align-self: center;
+    }
+
+    img {
+        align-content: center;
+        width: 80%;
+        align-self: center;
+
+    }
+
+    .smol {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+
+    }
+}
+
+

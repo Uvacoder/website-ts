@@ -14,7 +14,7 @@ export function Article ({ title, date, link, image }: ArticleProps) {
   return (
       <Router>
           <Link className={styles.container} to={link}>
-          <div>
+          <div className={styles.smol}>
             <h2>{title}</h2>
             <p>{date}</p>
             <img src={image}/>

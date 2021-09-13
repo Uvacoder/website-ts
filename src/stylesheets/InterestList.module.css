@@ -4,7 +4,27 @@
     justify-content: space-evenly;
     flex-direction: row;
     width: 90%;
-    min-width: 800px;
     align-self: center;
     padding-bottom: 4.5%;
+}
+
+@media (max-width: 700px){ 
+    .container {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-self: center;
+    }
+
+}
+
+@media (max-width: 850px) and (min-width: 701px)  {
+    .container {
+        flex-direction: column;
+        width: 90%;
+        justify-content: space-between;
+        align-self: center;
+        font-size: x-large;
+    }
+
 }

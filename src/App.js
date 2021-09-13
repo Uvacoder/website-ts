@@ -79,7 +79,7 @@ function App() {
 
   return (
     <div className="App">
-      <div className="mainContainer">
+      <div className="mainContainer full">
         <Title
           message={message} />
       </div>
