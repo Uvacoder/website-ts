@@ -17,18 +17,18 @@ import { Footer } from './components/Footer';
 import Header from './components/Header';
 
 
-function Item(props) {
-  return (
-    <Paper>
-      <h2>{props.item.name}</h2>
-      <p>{props.item.description}</p>
+// function Item(props) {
+//   return (
+//     <Paper>
+//       <h2>{props.item.name}</h2>
+//       <p>{props.item.description}</p>
 
-      <Button className="CheckButton">
-        Check it out!
-      </Button>
-    </Paper>
-  )
-}
+//       <Button className="CheckButton">
+//         Check it out!
+//       </Button>
+//     </Paper>
+//   )
+// }
 
 
 function App() {
@@ -103,8 +103,7 @@ function App() {
       <div className="mainContainer grey" id='projects'>
   
         <Carousel
-          next={(next, active) => console.log()}
-          prev={(prev, active) => console.log(`we left ${active}, and are now at ${prev}`)}
+         
         >
             {projects.map((project) => 
             <Project
@@ -126,8 +125,7 @@ function App() {
         <Title
           message='My journey' />
           <Carousel
-          next={(next, active) => console.log()}
-          prev={(prev, active) => console.log(`we left ${active}, and are now at ${prev}`)}
+         
         >
             {chapters.map((chapter) => 
             <Chapter
