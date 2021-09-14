@@ -1,0 +1,30 @@
+.container {
+    width: 95%;
+    display: flex;
+    position: absolute;
+    top: 0;
+    align-self: center;
+    padding: 20px 0;
+    justify-content: flex-end;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.link {
+    margin-left: 40px;
+    text-decoration: none;
+    color: rgb(142, 149, 211);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.link:hover {
+    transform: scale(1.1);
+}
+
+
+@media (max-width: 700px){ 
+    .container {
+        visibility: hidden;
+    }
+}

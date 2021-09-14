@@ -14,6 +14,7 @@ import { Chapter } from './components/Chapter';
 import { JobList } from './components/JobList';
 import ArticleList from './components/ArticleList';
 import { Footer } from './components/Footer';
+import Header from './components/Header';
 
 
 function Item(props) {
@@ -80,11 +81,12 @@ function App() {
   return (
     <div className="App">
       <div className="mainContainer full">
+        <Header />
         <Title
           message={message} />
       </div>
 
-      <div className="mainContainer">
+      <div className="mainContainer" id='interests'>
         <Title
           message="I'm interested in..." />
         <InterestList />
@@ -98,7 +100,7 @@ function App() {
         </div>
       </div>
 
-      <div className="mainContainer grey">
+      <div className="mainContainer grey" id='projects'>
   
         <Carousel
           next={(next, active) => console.log()}
@@ -114,13 +116,13 @@ function App() {
         </Carousel>
       </div>
 
-      <div className="mainContainer extendable">
+      <div className="mainContainer extendable" id='small-projects'>
         <Title
           message='"Weekend" Projects' />
         <WeekendProjectList />
       </div>
 
-      <div className="mainContainer extendable">
+      <div className="mainContainer extendable" id='journey'>
         <Title
           message='My journey' />
           <Carousel
@@ -137,7 +139,7 @@ function App() {
         </Carousel>
       </div>
 
-      <div className="mainContainer">
+      <div className="mainContainer" id='articles'>
         <Title
           message='My articles' />
         <ArticleList />
