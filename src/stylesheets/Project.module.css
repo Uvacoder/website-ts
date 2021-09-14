@@ -8,9 +8,10 @@
 
 .smol {
     display: flex;
-    width: 70%;
     flex-direction: column;  
+    justify-content: center;
     align-self: center;
+  
 }
 
 .h2 {

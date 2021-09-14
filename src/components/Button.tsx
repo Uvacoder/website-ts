@@ -11,7 +11,7 @@ export function Button ({ text, link, color }: ButtonProps) {
   return (
     <div className={styles.button} style={{background: color}}>
       <Router>
-        <Link style={{textDecoration:'none', 
+        <Link style={{display:"flex", justifyContent: 'center', textDecoration:'none', alignSelf:"center",
                     fontSize: '0.7rem', color: 'rgba(255,255,255)'}} 
                     to={link}>
               <h3>{ text }</h3>
