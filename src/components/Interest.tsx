@@ -1,4 +1,4 @@
-import { type } from 'os';
+// import { type } from 'os';
 import * as React from 'react';
 import Icon from './Icon'
 import styles from '../stylesheets/Interest.module.css'
