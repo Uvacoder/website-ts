@@ -1,15 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import Title from './components/Title'
 import InterestList from './components/InterestList';
 import WeekendProjectList from './components/WeekendProjectList';
 import Project from './components/Project';
 import Carousel from 'react-material-ui-carousel'
-import { Paper, Button } from '@material-ui/core'
-import logo1 from './assets/1.jpg'
-import logo2 from './assets/2.jpg'
-import logo3 from './assets/3.jpg'
+// import { Paper, Button } from '@material-ui/core'
+// import logo1 from './assets/1.jpg'
+// import logo2 from './assets/2.jpg'
+// import logo3 from './assets/3.jpg'
 import { Chapter } from './components/Chapter';
 import { JobList } from './components/JobList';
 import ArticleList from './components/ArticleList';
@@ -73,7 +73,7 @@ function App() {
     },
   ]
 
-  const selected = 'item1';
+ // const selected = 'item1';
   let message = `My portfolio. 
    A showcase of the projects I've worked on`
 
