@@ -5,7 +5,7 @@ import styles from '../stylesheets/WeekendProjectList.module.css'
 type WeekendProjectListProps = {
 }
 
-export default function WeekendProjectList ({  }: WeekendProjectListProps) {
+export default function WeekendProjectList ({}: WeekendProjectListProps) {
     let projects : { title: string,
                 description: string,
                 heroku: boolean,
