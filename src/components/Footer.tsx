@@ -1,4 +1,4 @@
-import { Icon } from '@material-ui/core';
+// import { Icon } from '@material-ui/core';
 import * as React from 'react';
 import { BrowserRouter as Router, Link } from 'react-router-dom';
 import styles from '../stylesheets/Footer.module.css'
