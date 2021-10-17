@@ -17,7 +17,7 @@ export function Article ({ title, date, link, image }: ArticleProps) {
           <div className={styles.smol}>
             <h2>{title}</h2>
             <p>{date}</p>
-            <img src={image}/>
+            <img src={image} alt="" />
         </div>
           </Link>
         
